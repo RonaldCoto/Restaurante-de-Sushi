@@ -1,0 +1,757 @@
+@media only screen and (min-width:122px) and (max-width:624px)
+{
+		body{
+			background-image: url(../img/fon.jpg);
+			background-repeat: no-repeat;
+			background-size: 100% 100%;
+			background-attachment: fixed;
+		}
+		header{
+			width: 100%;
+			background-color:#2A2A2A ;
+			height: 70px;
+			font-family: Arial, Helvetica, sans-serif;
+		}
+		.log{
+			width: 100%;
+			height: 10%;
+		}
+		nav{
+			height: 100%;
+			width: 100%;
+			float: left;
+			text-align: center;
+			font-size: 80%;
+			margin-top: 5%;
+		}
+		nav ul li{
+			display: inline;
+		}
+		nav ul li a{
+			color: white;
+			font-family: Arial, Helvetica, sans-serif;
+			text-decoration: none;
+			text-transform: uppercase;
+			padding-left: 15px;
+			font-weight: bold;
+		}
+
+		nav ul li a:hover{
+			color: #AEC240;
+		}
+
+	/*-----------------------submenu--------------------------------*/
+
+	nav ul ul{
+		position: absolute;
+		width: 150px;
+		background-color:#2A2A2A;
+		list-style: none;
+		margin-top: 0px;
+		padding-bottom: 12px;
+		padding-right: 12px;
+		padding-left: 0px;
+		padding-top: 10px;
+		left: 62%;
+		text-align: left;
+		display: none;
+	}
+	nav ul ul li{
+		line-height:25px;
+	}
+
+	nav ul li:hover > ul{
+		display: block;
+	}
+
+	nav ul li ul:hover{
+		display: block;
+	}
+
+
+	/*---------------------------------------------------------*/
+
+	/* Galeria */
+
+	.principal{
+		background-color: rgba(	67, 67, 67, 0.7);
+		color: white;
+		font-family: Arial, Helvetica, sans-serif;
+	    width: 100%;
+
+	}
+
+	/*Estilos de la galeria*/
+
+	.galeria {
+		width: 90%;
+		margin: auto;
+		list-style: none;
+		box-sizing: border-box;
+		
+		display:inline-flex;
+		flex-wrap: wrap;
+		justify-content:flex-end;
+	}
+
+	.galeria li {
+		margin: 1%;
+	}
+
+	.galeria img {
+		width: 80%;
+		height: 80%;
+		margin-left: 20%;
+	}
+
+
+	/*Estilos del modal*/
+
+	.modal {
+		display: none;
+	}
+
+	.modal:target {
+
+		display: block;
+		position:fixed;
+		background: rgba(0,0,0,0.8);
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+
+
+	.galeria li:hover{
+	    background-color: rgb(174, 194, 64);
+	   
+	    
+	}
+
+	.galeria li:hover img{
+	    width: 99%;
+	    height: 98%;
+	    display:inline-flex;
+	    margin: 2px;
+	}
+
+	.modal h3 {
+	   
+		color: #fff;
+		font-size: 30px;
+		text-align: center;
+		margin-top: 5%;
+	}
+
+	.imagen {
+		width: 100%;
+		height: 50%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.imagen a {
+		color: rgb(174, 194, 64);
+		font-size: 40px;
+		text-decoration: none;
+		margin: 0 2px;
+	}
+
+	.imagen a:nth-child(2) {
+		margin: 0;
+		height: 100%;
+		flex-shrink: 2;
+	}
+
+	.imagen img {
+		width: 500px;
+		height: 100%;
+		max-width: 100%;
+		border: 7px solid rgb(174, 194, 64);
+		box-sizing: border-box;
+	}
+
+	.cerrar {
+		display: block;
+		background: rgb(174, 194, 64);
+		width: 25px;
+		height: 25px;
+		margin: 15px auto;
+		text-align: center;
+		text-decoration: none;
+		font-size: 25px;
+		color: #000;
+		padding: 5px;
+		border-radius: 50%;
+		line-height: 25px;
+	}
+
+
+	h1{
+		text-align: center;
+		padding-left: 50px;
+		padding-right: 50px;
+		text-align: center;
+		font: normal normal normal 30px/1.4em impact,impact-w01-2010,impact-w02-2010,impact-w10-2010,sans-serif;
+	    color: white;
+	    letter-spacing: 0.05em;
+		letter-spacing: 3px;
+		text-transform: uppercase;
+	}
+
+	/* Footer */
+
+	footer{
+		padding: 30px;
+		width: 95.3%;
+		text-align: center;
+		font-size: 15px;
+		background-color:#2A2A2A ;
+		color: rgb(174, 194, 64);
+
+	}
+
+	.copy{
+		font-size: 12px;
+		font-family: Arial, Helvetica, sans-serif;
+		letter-spacing: 3px;
+		text-transform: uppercase;
+
+
+	}
+	.contac{
+		text-align: justify;
+		font-family: Arial, Helvetica, sans-serif;
+	}
+	.co{
+		text-align: justify;
+		font-family: Arial, Helvetica, sans-serif;
+	}
+	.con{
+		font-weight: bold;
+		text-align: justify;
+		font-family: Arial, Helvetica, sans-serif;
+		text-transform: uppercase;
+	}
+}
+
+
+@media only screen and (min-width:625px) and (max-width:720px)
+{
+	body{
+		background-image: url(../img/fon.jpg);
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		background-attachment: fixed;
+	}
+	header{
+		background-color:#2A2A2A ;
+		font-family: Arial, Helvetica, sans-serif;
+	}
+	.log{
+		width: 27%;
+		padding-left: 7%;
+	}
+	nav{
+		width: 100%;
+		float: left;
+		text-align: right;
+		font-size: 80%;
+	}
+	nav ul li{
+		display: inline;
+	}
+	nav ul li a{
+		color: white;
+		font-family: Arial, Helvetica, sans-serif;
+		text-decoration: none;
+		text-transform: uppercase;
+		padding-left: 1%;
+		font-weight: bold;
+	}
+
+	nav ul li a:hover{
+		color: #AEC240;
+	}
+
+	/*-----------------------submenu--------------------------------*/
+
+	nav ul ul{
+		position: absolute;
+		width: 150px;
+		background-color:#2A2A2A;
+		list-style: none;
+		margin-top: 0px;
+		padding-bottom: 12px;
+		padding-right: 12px;
+		padding-left: 0px;
+		padding-top: 10px;
+		left: 62%;
+		text-align: left;
+		display: none;
+	}
+	nav ul ul li{
+		line-height:25px;
+	}
+
+	nav ul li:hover > ul{
+		display: block;
+	}
+
+	nav ul li ul:hover{
+		display: block;
+	}
+
+
+	/*---------------------------------------------------------*/
+
+	/* Galeria */
+
+	.principal{
+		background-color: rgba(	67, 67, 67, 0.7);
+		color: white;
+		font-family: Arial, Helvetica, sans-serif;
+	    width: 100%;
+
+	}
+
+	/*Estilos de la galeria*/
+
+	.galeria {
+		width: 90%;
+		margin: auto;
+		list-style: none;
+		box-sizing: border-box;
+		
+		display:inline-flex;
+		flex-wrap: wrap;
+		justify-content:flex-end;
+	}
+
+	.galeria li {
+		margin: 1%;
+	}
+
+	.galeria img {
+		width: 75%;
+		height: 75%;
+		margin-left: 20%;
+	}
+
+
+	/*Estilos del modal*/
+
+	.modal {
+		display: none;
+	}
+
+	.modal:target {
+
+		display: block;
+		position:fixed;
+		background: rgba(0,0,0,0.8);
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+
+
+	.galeria li:hover{
+	    background-color: rgb(174, 194, 64);
+	   
+	    
+	}
+
+	.galeria li:hover img{
+	    width: 99%;
+	    height: 98%;
+	    display:inline-flex;
+	    margin: 2px;
+	}
+
+	.modal h3 {
+	   
+		color: #fff;
+		font-size: 30px;
+		text-align: center;
+		margin-top: 5%;
+	}
+
+	.imagen {
+		width: 100%;
+		height: 50%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.imagen a {
+		color: rgb(174, 194, 64);
+		font-size: 40px;
+		text-decoration: none;
+		margin: 0 2px;
+	}
+
+	.imagen a:nth-child(2) {
+		margin: 0;
+		height: 100%;
+		flex-shrink: 2;
+	}
+
+	.imagen img {
+		width: 500px;
+		height: 100%;
+		max-width: 100%;
+		border: 7px solid rgb(174, 194, 64);
+		box-sizing: border-box;
+	}
+
+	.cerrar {
+		display: block;
+		background: rgb(174, 194, 64);
+		width: 25px;
+		height: 25px;
+		margin: 15px auto;
+		text-align: center;
+		text-decoration: none;
+		font-size: 25px;
+		color: #000;
+		padding: 5px;
+		border-radius: 50%;
+		line-height: 25px;
+	}
+
+
+	h1{
+		text-align: center;
+		padding-left: 50px;
+		padding-right: 50px;
+		text-align: center;
+		font: normal normal normal 30px/1.4em impact,impact-w01-2010,impact-w02-2010,impact-w10-2010,sans-serif;
+	    color: white;
+	    letter-spacing: 0.05em;
+		letter-spacing: 3px;
+		text-transform: uppercase;
+	}
+
+	/* Footer */
+
+	footer{
+		padding: 30px;
+		width: 95.3%;
+		text-align: center;
+		font-size: 15px;
+		background-color:#2A2A2A ;
+		color: rgb(174, 194, 64);
+
+	}
+
+	.copy{
+		font-size: 12px;
+		font-family: Arial, Helvetica, sans-serif;
+		letter-spacing: 3px;
+		text-transform: uppercase;
+
+
+	}
+	.contac{
+		text-align: justify;
+		font-family: Arial, Helvetica, sans-serif;
+	}
+	.co{
+		text-align: justify;
+		font-family: Arial, Helvetica, sans-serif;
+	}
+	.con{
+		font-weight: bold;
+		text-align: justify;
+		font-family: Arial, Helvetica, sans-serif;
+		text-transform: uppercase;
+	}
+}
+
+
+@media only screen and (min-width:721px) and (max-width:4096px)
+{
+	body{
+		background-image: url(../img/fon.jpg);
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		background-attachment: fixed;
+	}
+	header{
+		background-color:#2A2A2A ;
+		font-family: Arial, Helvetica, sans-serif;
+	}
+	.log{
+		width: 27%;
+		padding-left: 7%;
+	}
+	nav{
+		width: 100%;
+		float: left;
+		text-align: right;
+		font-size: 80%;
+	}
+	nav ul li{
+		display: inline;
+	}
+	nav ul li a{
+		color: white;
+		font-family: Arial, Helvetica, sans-serif;
+		text-decoration: none;
+		text-transform: uppercase;
+		padding-left: 1%;
+		font-weight: bold;
+	}
+
+	nav ul li a:hover{
+		color: #AEC240;
+	}
+    
+	/*-----------------------submenu--------------------------------*/
+
+	nav ul ul{
+		position: absolute;
+		width: 150px;
+		background-color:#2A2A2A;
+		list-style: none;
+		margin-top: 0px;
+		padding-bottom: 12px;
+		padding-right: 12px;
+		padding-left: 0px;
+		padding-top: 10px;
+		left: 62%;
+		text-align: left;
+		display: none;
+	}
+	nav ul ul li{
+		line-height:25px;
+	}
+
+	nav ul li:hover > ul{
+		display: block;
+	}
+
+	nav ul li ul:hover{
+		display: block;
+	}
+
+
+	/*---------------------------------------------------------*/
+
+	/* Galeria */
+
+	.principal{
+		background-color: rgba(	67, 67, 67, 0.7);
+		color: white;
+		font-family: Arial, Helvetica, sans-serif;
+	    width: 100%;
+
+	}
+
+	/*Estilos de la galeria*/
+
+	.galeria {
+		width: 100%;
+		list-style: none;
+		box-sizing: border-box;
+		
+		display:inline-flex;
+		flex-wrap: wrap;
+		justify-content:flex-end;
+	}
+
+	.galeria li {
+		width: 45%;
+	}
+
+	.galeria img {
+		width: 80%;
+		height: 80%;
+	}
+
+
+	/*Estilos del modal*/
+
+	.modal {
+		display: none;
+	}
+
+	.modal{
+
+		display: block;
+		position:fixed;
+		background: rgba(0,0,0,0.8);
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+
+
+	.galeria li:hover{
+	    background-color: rgb(174, 194, 64);
+	    margin: 1%;
+	}
+
+	.galeria li:hover img{
+	    width: 99%;
+	    height: 98%;
+	    display:inline-flex;
+	    margin: 1px;
+	}
+
+	.modal h3 {
+	   
+		color: #fff;
+		font-size:15px;
+		text-align: center;
+		margin-top: 3%;
+	}
+
+	.imagen {
+		width: 100%;
+		height: 75%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.imagen a {
+		color: rgb(174, 194, 64);
+		font-size: 40px;
+		text-decoration: none;
+		margin: 0 2px;
+	}
+
+	.imagen a:nth-child(2) {
+		margin: 0;
+		height: 100%;
+		flex-shrink: 2;
+	}
+
+	.imagen img {
+		width: 500px;
+		height: 100%;
+		max-width: 100%;
+		border: 7px solid rgb(174, 194, 64);
+		box-sizing: border-box;
+	}
+
+	.cerrar {
+		display: block;
+		background: rgb(174, 194, 64);
+		width: 25px;
+		height: 25px;
+		margin: 15px auto;
+		text-align: center;
+		text-decoration: none;
+		font-size: 25px;
+		color: #000;
+		padding: 5px;
+		border-radius: 50%;
+		line-height: 25px;
+	}
+
+
+	h1{
+		text-align: center;
+		padding-left: 50px;
+		padding-right: 50px;
+		text-align: center;
+		font: normal normal normal 30px/1.4em impact,impact-w01-2010,impact-w02-2010,impact-w10-2010,sans-serif;
+	    color: white;
+	    letter-spacing: 0.05em;
+		letter-spacing: 3px;
+		text-transform: uppercase;
+	}
+
+	/* Footer */
+
+	footer{
+		padding: 30px;
+		width: 95.3%;
+		text-align: center;
+		font-size: 15px;
+		background-color:#2A2A2A ;
+		color: rgb(174, 194, 64);
+
+	}
+
+	.copy{
+		font-size: 12px;
+		font-family: Arial, Helvetica, sans-serif;
+		letter-spacing: 3px;
+		text-transform: uppercase;
+
+
+	}
+	.contac{
+		text-align: justify;
+		font-family: Arial, Helvetica, sans-serif;
+	}
+	.co{
+		text-align: justify;
+		font-family: Arial, Helvetica, sans-serif;
+	}
+	.con{
+		font-weight: bold;
+		text-align: justify;
+		font-family: Arial, Helvetica, sans-serif;
+		text-transform: uppercase;
+	}
+     }
+  ---------------------------------------
+.comentar {
+  width: 500px;
+  margin: 0 auto;
+  height: 100px;
+    text-align: center;
+}
+
+.comentar p {
+  text-align: center;
+}
+
+label {
+  font-size: 40px;
+}
+
+input[type="radio"] {
+  display: none;
+
+}
+
+label {
+  color: grey;
+}
+.clasificacion {
+  direction: rtl;
+  unicode-bidi: bidi-override;
+}
+
+label:hover,
+label:hover ~ label {
+  color: rgb(174, 194, 64);
+}
+
+input[type="radio"]:checked ~ label {
+  color: rgb(174, 194, 64);
+}
+    .comentar h3{
+        text-align: left;
+    }
+    
+    .enviar{
+        width: 60px;
+        height: 30px;
+        background-color: rgb(174, 194, 64);
+       border-radius: 10%;
+        border-color: black;
+            
+        
+    }

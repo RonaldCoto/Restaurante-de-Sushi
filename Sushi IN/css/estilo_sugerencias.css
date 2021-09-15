@@ -1,0 +1,234 @@
+body{
+	background-image: url(../img/fon.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-attachment: fixed;
+}
+
+.f{
+	background-color: rgb(174, 194, 64);
+}
+header{
+	width: 100%;
+	background-color:#2A2A2A ;
+	height: 70px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.cabecera{
+	width: 80%;
+	height: 70px;
+	background-color: #2A2A2A;
+	margin: auto;
+}
+.log{
+	padding:15px;
+	width: 30%;
+	height: 70px;
+	background-color:rgb(174, 194, 64);
+	float: left;
+	padding-top: 1px;
+	box-sizing: border-box;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+
+.log p a{
+	color: #2A2A2A;
+	font-size: 40px;
+	text-decoration: none;
+
+}
+.log p a span{
+	color: rgba(255,255,255,1);
+}
+
+.log p a img{
+	object-position: 50% 50%;
+	width: 70px;
+    height: 42px;
+	object-fit: cover;
+}
+nav{
+	width: 70%;
+	height: 70px;
+	float: left;
+	padding-top: 24px;
+	text-align: right;
+}
+
+nav ul li{
+	display: inline;
+}
+nav ul li a{
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding-left: 15px;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+
+nav ul li a:hover{
+	color: #AEC240;
+}
+
+/*--------------------------------------------------------------*/
+
+h2{
+	text-align: center;
+	font: normal normal normal 25px/1.4em impact,impact-w01-2010,impact-w02-2010,impact-w10-2010,sans-serif;
+    color: rgb(174, 194, 64);
+    letter-spacing: 0.05em;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+}
+
+h4{
+	padding: 1em;
+	color: white;
+	font-size: 2em;
+	text-align: center;
+}
+
+ .bonito{
+	color: black;
+	font-family: Times New Roman;
+	font-size: 10px;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding-left: 5px;
+	letter-spacing: 1px;
+	border-radius: 5px;
+	background-color: rgb(174, 194, 64);
+	width: 200px;
+	height: 20px;
+ }
+ 
+ .bonito2{
+	 color: black;
+	 font-family: Times New Roman;
+	 font-size: 10px;
+	 text-decoration: none;
+	text-transform: uppercase;
+	padding-left: 5px;
+	letter-spacing: 1px;
+	border-radius: 5px;
+	background-color: rgb(174, 194, 64);
+	width:720px;
+	height: 150px;
+	
+ }
+ 
+ .boton{
+	text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: black;
+    background-color: rgb(174, 194, 64);
+    border-radius: 6px;
+    border: 2px solid #fff;
+ }
+ 
+ .img{
+	 border-radius:5px;
+	 border: 1px solid #39c;
+	 background-color: rgb(174, 194, 64);
+ }
+ 
+ .titulo{
+	 padding-left: 10px;
+	padding-right: 10px;
+	text-align: center;
+	color: white;
+    letter-spacing: 0.05em;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+ }
+
+ 
+
+/*-----------------------submenu--------------------------------*/
+
+nav ul ul{
+	position: absolute;
+	width: 150px;
+	background-color:#2A2A2A;
+	list-style: none;
+	margin-top: 0px;
+	padding-bottom: 12px;
+	padding-right: 12px;
+	padding-left: 0px;
+	padding-top: 10px;
+	left: 62%;
+	text-align: left;
+	display: none;
+}
+nav ul ul li{
+	line-height:25px;
+}
+
+nav ul li:hover > ul{
+	display: block;
+}
+
+nav ul li ul:hover{
+	display: block;
+}
+
+/*----------------------------------------------------------------------------*/
+
+footer{
+	padding: 30px;
+	width: 95.3%;
+	text-align: center;
+	font-size: 15px;
+	background-color:#2A2A2A ;
+	color: rgb(174, 194, 64);
+
+}
+.con{
+	font-weight: bold;
+	text-align: justify;
+	font-family: Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+
+}
+.contac{
+	text-align: justify;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.co{
+	text-align: justify;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.copy{
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+
+
+}
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

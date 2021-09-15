@@ -1,0 +1,761 @@
+@media only screen and (min-width:122px) and (max-width:624px)
+{
+	body{
+		background-image: url(../img/fon.jpg);
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		background-attachment: fixed;
+	}
+	header{
+		width: 100%;
+		background-color:#2A2A2A ;
+		height: 70px;
+		font-family: Arial, Helvetica, sans-serif;
+	}
+	.log{
+		width: 100%;
+		height: 10%;
+	}
+	nav{
+		height: 100%;
+		width: 100%;
+		float: left;
+		text-align: center;
+		font-size: 80%;
+		margin-top: 5%;
+	}
+	nav ul li{
+		display: inline;
+	}
+	nav ul li a{
+		color: white;
+		font-family: Arial, Helvetica, sans-serif;
+		text-decoration: none;
+		text-transform: uppercase;
+		padding-left: 15px;
+		font-weight: bold;
+	}
+
+	nav ul li a:hover{
+		color: #AEC240;
+	}
+	/*-----------------------submenu--------------------------------*/
+
+	nav ul ul{
+		position: absolute;
+		width: 150px;
+		background-color:#2A2A2A;
+		list-style: none;
+		margin-top: 0px;
+		padding-bottom: 12px;
+		padding-right: 12px;
+		padding-left: 0px;
+		padding-top: 10px;
+		left: 62%;
+		text-align: left;
+		display: none;
+	}
+	nav ul ul li{
+		line-height:25px;
+	}
+
+	nav ul li:hover > ul{
+		display: block;
+	}
+
+	nav ul li ul:hover{
+		display: block;
+	}
+
+	/*---------------------------------------------------------*/
+
+	div.principal{
+		background-color:rgba(67,67,67,0.7);
+		color: white;
+		font-family: Arial, Helvetica, sans-serif;
+		margin-top: 3%;
+	}
+	td.Titulos{
+		text-align: center;
+		font: normal normal normal 175%/140% 
+			impact,impact-w01-2010,impact-w02-2010,
+			impact-w10-2010,sans-serif;
+	    color: white;
+		text-transform: uppercase;
+	}
+	img.imagen{
+		width: 50%;
+		height: 50%;
+		text-align: left;
+		vertical-align: top;
+		display:block;
+		margin:auto;
+	}
+	td.descripcion p{
+		text-align: justify;
+		width: 60%;
+		font-size: 80%;
+		padding-left: 25%;
+		padding-right: 25%;
+	}
+
+	td.nombres{
+		text-align: center;
+		font: normal normal normal 100%/140%  impact
+			impact-w01-2010,impact-w02-2010,
+			impact-w10-2010,sans-serif;
+	    color: rgb(174, 194, 64);
+		text-transform: uppercase;
+	}
+	table td.maspromos{
+		padding-top: 70px;
+	}
+	table.menu{
+		margin-bottom: 30px;
+	}
+
+	/*----------------------------------------------------*/
+
+	#combo2:hover img.imagen{
+		filter:opacity(.3)
+	}
+
+	span.combo {
+		visibility:hidden;
+		position: absolute;
+	}
+
+	#combo2:hover span.combo{
+		visibility:visible;
+		position: absolute; 
+		top: 45%; 
+		left: 12%;
+		font-weight: bold;
+		font-size: 100%;
+	}
+
+	/*-------------------------------------------------------*/
+	#combo3:hover img.imagen{
+		filter:opacity(.3)
+	}
+
+	span.comb3 {
+		visibility:hidden;
+		position: absolute;
+	}
+
+	#combo3:hover span.comb3{
+		visibility:visible;
+		position: absolute; 
+		top: 45%; 
+		left: 46%;
+		font-weight: bold;
+		font-size: 100%;
+	}
+	/*----------------------------------------------------------------*/
+
+	#combofam:hover img.imagen{
+		filter:opacity(.3)
+	}
+
+	span.combfam {
+		visibility:hidden;
+		position: absolute;
+	}
+
+	#combofam:hover span.combfam{
+		visibility:visible;
+		position: absolute; 
+		top: 45%; 
+		left: 77%;
+		font-weight: bold;
+		font-size: 100%;
+	}
+
+	/*----------------------------------------------------*/
+
+	#comboejec:hover img.imagen{
+		filter:opacity(.3)
+	}
+
+	span.combej {
+		visibility:hidden;
+		position: absolute;
+	}
+
+	#comboejec:hover span.combej{
+		visibility:visible;
+		position: absolute; 
+		top: 110%; 
+		left: 14%;
+		font-weight: bold;
+		font-size: 100%;
+	}
+
+	/*----------------------------------------------------*/
+
+	#reshipi:hover img.imagen{
+		filter:opacity(.3)
+	}
+
+	span.amai {
+		visibility:hidden;
+		position: absolute;
+	}
+
+	#reshipi:hover span.amai{
+		visibility:visible;
+		position: absolute; 
+		top: 110%; 
+		left: 48%;
+		font-weight: bold;
+		font-size: 100%;
+	}
+		
+	/*------------------------------------------------------------*/
+	footer{
+		padding: 30px;
+		width: 95.3%;
+		text-align: center;
+		font-size: 15px;
+		background-color:#2A2A2A ;
+		color: rgb(174, 194, 64);
+
+	}
+	.con{
+		font-weight: bold;
+		text-align: justify;
+		font-family: Arial, Helvetica, sans-serif;
+		text-transform: uppercase;
+
+	}
+	.contac{
+		text-align: justify;
+		font-family: Arial, Helvetica, sans-serif;
+	}
+	.co{
+		text-align: justify;
+		font-family: Arial, Helvetica, sans-serif;
+	}
+	.copy{
+		font-size: 12px;
+		font-family: Arial, Helvetica, sans-serif;
+		letter-spacing: 3px;
+		text-transform: uppercase;
+	}
+}
+
+@media only screen and (min-width:625px) and (max-width:720px)
+{
+	body{
+		background-image: url(../img/fon.jpg);
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		background-attachment: fixed;
+	}
+	header{
+		background-color:#2A2A2A ;
+		font-family: Arial, Helvetica, sans-serif;
+	}
+	.log{
+		width: 27%;
+		padding-left: 7%;
+	}
+	nav{
+		width: 100%;
+		float: left;
+		text-align: right;
+		font-size: 80%;
+	}
+	nav ul li{
+		display: inline;
+	}
+	nav ul li a{
+		color: white;
+		font-family: Arial, Helvetica, sans-serif;
+		text-decoration: none;
+		text-transform: uppercase;
+		padding-left: 1%;
+		font-weight: bold;
+	}
+
+	nav ul li a:hover{
+		color: #AEC240;
+	}
+	/*-----------------------submenu--------------------------------*/
+
+	nav ul ul{
+		position: absolute;
+		width: 150px;
+		background-color:#2A2A2A;
+		list-style: none;
+		margin-top: 0px;
+		padding-bottom: 12px;
+		padding-right: 12px;
+		padding-left: 0px;
+		padding-top: 10px;
+		left: 62%;
+		text-align: left;
+		display: none;
+	}
+	nav ul ul li{
+		line-height:25px;
+	}
+
+	nav ul li:hover > ul{
+		display: block;
+	}
+
+	nav ul li ul:hover{
+		display: block;
+	}
+
+	/*---------------------------------------------------------*/
+
+	div.principal{
+		background-color:rgba(67,67,67,0.7);
+		color: white;
+		font-family: Arial, Helvetica, sans-serif;
+		margin-top: 3%;
+	}
+
+	table.menu{
+	}
+
+	td.Titulos{
+		text-align: center;
+		font: normal normal normal 175%/140% 
+			impact,impact-w01-2010,impact-w02-2010,
+			impact-w10-2010,sans-serif;
+	    color: white;
+		text-transform: uppercase;
+	}
+
+	img.imagen{
+		width: 50%;
+		height: 50%;
+		text-align: left;
+		vertical-align: top;
+		display:block;
+		margin:auto;
+
+	}
+
+	 table.menu td{
+
+	}
+	td.precio{
+	}
+
+	td.descripcion p{
+		text-align: justify;
+		width: 60%;
+		font-size: 80%;
+		padding-left: 25%;
+		padding-right: 25%;
+	}
+
+	td.nombres{
+		text-align: center;
+		font: normal normal normal 100%/140%  impact
+			impact-w01-2010,impact-w02-2010,
+			impact-w10-2010,sans-serif;
+	    color: rgb(174, 194, 64);
+		text-transform: uppercase;
+	}
+
+	table td.maspromos{
+		padding-top: 70px;
+	}
+
+	table.menu{
+		margin-bottom: 30px;
+	}
+
+	/*----------------------------------------------------*/
+
+	#combo2:hover img.imagen{
+		filter:opacity(.3)
+	}
+
+	span.combo {
+		visibility:hidden;
+		position: absolute;
+	}
+
+	#combo2:hover span.combo{
+		visibility:visible;
+		position: absolute; 
+		top: 37%; 
+		left: 12%;
+		font-weight: bold;
+		font-size: 100%;
+	}
+
+	/*-------------------------------------------------------*/
+	#combo3:hover img.imagen{
+		filter:opacity(.3)
+	}
+
+	span.comb3 {
+		visibility:hidden;
+		position: absolute;
+	}
+
+	#combo3:hover span.comb3{
+		visibility:visible;
+		position: absolute; 
+		top: 37%; 
+		left: 46%;
+		font-weight: bold;
+		font-size: 100%;
+	}
+	/*----------------------------------------------------------------*/
+
+	#combofam:hover img.imagen{
+		filter:opacity(.3)
+	}
+
+	span.combfam {
+		visibility:hidden;
+		position: absolute;
+	}
+
+	#combofam:hover span.combfam{
+		visibility:visible;
+		position: absolute; 
+		top: 37%; 
+		left: 77%;
+		font-weight: bold;
+		font-size: 100%;
+	}
+
+	/*----------------------------------------------------*/
+
+	#comboejec:hover img.imagen{
+		filter:opacity(.3)
+	}
+
+	span.combej {
+		visibility:hidden;
+		position: absolute;
+	}
+
+	#comboejec:hover span.combej{
+		visibility:visible;
+		position: absolute; 
+		top: 96%; 
+		left: 14%;
+		font-weight: bold;
+		font-size: 100%;
+	}
+
+	/*----------------------------------------------------*/
+
+	#reshipi:hover img.imagen{
+		filter:opacity(.3)
+	}
+
+	span.amai {
+		visibility:hidden;
+		position: absolute;
+	}
+
+	#reshipi:hover span.amai{
+		visibility:visible;
+		position: absolute; 
+		top: 96%; 
+		left: 48%;
+		font-weight: bold;
+		font-size: 100%;
+	}
+		
+	/*------------------------------------------------------------*/
+	footer{
+		padding: 30px;
+		width: 95.3%;
+		text-align: center;
+		font-size: 15px;
+		background-color:#2A2A2A ;
+		color: rgb(174, 194, 64);
+
+	}
+	.con{
+		font-weight: bold;
+		text-align: justify;
+		font-family: Arial, Helvetica, sans-serif;
+		text-transform: uppercase;
+
+	}
+	.contac{
+		text-align: justify;
+		font-family: Arial, Helvetica, sans-serif;
+	}
+	.co{
+		text-align: justify;
+		font-family: Arial, Helvetica, sans-serif;
+	}
+	.copy{
+		font-size: 12px;
+		font-family: Arial, Helvetica, sans-serif;
+		letter-spacing: 3px;
+		text-transform: uppercase;
+	}
+}
+
+@media only screen and (min-width:721px) and (max-width:4096px)
+{
+	body{
+		background-image: url(../img/fon.jpg);
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		background-attachment: fixed;
+	}
+	header{
+		background-color:#2A2A2A ;
+		font-family: Arial, Helvetica, sans-serif;
+	}
+	.log{
+		width: 27%;
+		padding-left: 7%;
+	}
+	nav{
+		width: 100%;
+		float: left;
+		text-align: right;
+		font-size: 100%;
+	}
+	nav ul li{
+		display: inline;
+	}
+	nav ul li a{
+		color: white;
+		font-family: Arial, Helvetica, sans-serif;
+		text-decoration: none;
+		text-transform: uppercase;
+		padding-left: 1%;
+		font-weight: bold;
+	}
+
+	nav ul li a:hover{
+		color: #AEC240;
+	}
+	/*-----------------------submenu--------------------------------*/
+
+	nav ul ul{
+		position: absolute;
+		width: 150px;
+		background-color:#2A2A2A;
+		list-style: none;
+		margin-top: 0px;
+		padding-bottom: 12px;
+		padding-right: 12px;
+		padding-left: 0px;
+		padding-top: 10px;
+		left: 62%;
+		text-align: left;
+		display: none;
+	}
+	nav ul ul li{
+		line-height:25px;
+	}
+
+	nav ul li:hover > ul{
+		display: block;
+	}
+
+	nav ul li ul:hover{
+		display: block;
+	}
+
+	/*---------------------------------------------------------*/
+
+	div.principal{
+		background-color:rgba(67,67,67,0.7);
+		color: white;
+		font-family: Arial, Helvetica, sans-serif;
+		margin-top: 3%;
+	}
+
+	table.menu{
+	}
+
+	td.Titulos{
+		text-align: center;
+		font: normal normal normal 175%/140% 
+			impact,impact-w01-2010,impact-w02-2010,
+			impact-w10-2010,sans-serif;
+	    color: white;
+		text-transform: uppercase;
+	}
+
+	img.imagen{
+		width: 50%;
+		height: 50%;
+		text-align: left;
+		vertical-align: top;
+		display:block;
+		margin:auto;
+
+	}
+
+	 table.menu td{
+
+	}
+	td.precio{
+	}
+
+	td.descripcion p{
+		text-align: justify;
+		width: 60%;
+		padding-left: 25%;
+		padding-right: 25%;
+	}
+
+	td.nombres{
+		text-align: center;
+		font: normal normal normal 100%/140%  impact
+			impact-w01-2010,impact-w02-2010,
+			impact-w10-2010,sans-serif;
+	    color: rgb(174, 194, 64);
+		text-transform: uppercase;
+	}
+
+	table td.maspromos{
+		padding-top: 70px;
+	}
+
+	table.menu{
+		margin-bottom: 30px;
+	}
+
+	/*----------------------------------------------------*/
+
+	#combo2:hover img.imagen{
+		filter:opacity(.3)
+	}
+
+	span.combo {
+		visibility:hidden;
+		position: absolute;
+	}
+
+	#combo2:hover span.combo{
+		visibility:visible;
+		position: absolute; 
+		top: 37%; 
+		left: 12%;
+		font-weight: bold;
+		font-size: 100%;
+	}
+
+	/*-------------------------------------------------------*/
+	#combo3:hover img.imagen{
+		filter:opacity(.3)
+	}
+
+	span.comb3 {
+		visibility:hidden;
+		position: absolute;
+	}
+
+	#combo3:hover span.comb3{
+		visibility:visible;
+		position: absolute; 
+		top: 37%; 
+		left: 46%;
+		font-weight: bold;
+		font-size: 100%;
+	}
+	/*----------------------------------------------------------------*/
+
+	#combofam:hover img.imagen{
+		filter:opacity(.3)
+	}
+
+	span.combfam {
+		visibility:hidden;
+		position: absolute;
+	}
+
+	#combofam:hover span.combfam{
+		visibility:visible;
+		position: absolute; 
+		top: 37%; 
+		left: 77%;
+		font-weight: bold;
+		font-size: 100%;
+	}
+
+	/*----------------------------------------------------*/
+
+	#comboejec:hover img.imagen{
+		filter:opacity(.3)
+	}
+
+	span.combej {
+		visibility:hidden;
+		position: absolute;
+	}
+
+	#comboejec:hover span.combej{
+		visibility:visible;
+		position: absolute; 
+		top: 96%; 
+		left: 14%;
+		font-weight: bold;
+		font-size: 100%;
+	}
+
+	/*----------------------------------------------------*/
+
+	#reshipi:hover img.imagen{
+		filter:opacity(.3)
+	}
+
+	span.amai {
+		visibility:hidden;
+		position: absolute;
+	}
+
+	#reshipi:hover span.amai{
+		visibility:visible;
+		position: absolute; 
+		top: 96%; 
+		left: 48%;
+		font-weight: bold;
+		font-size: 100%;
+	}
+		
+	/*------------------------------------------------------------*/
+	footer{
+		padding: 30px;
+		width: 95.3%;
+		text-align: center;
+		font-size: 15px;
+		background-color:#2A2A2A ;
+		color: rgb(174, 194, 64);
+
+	}
+	.con{
+		font-weight: bold;
+		text-align: justify;
+		font-family: Arial, Helvetica, sans-serif;
+		text-transform: uppercase;
+
+	}
+	.contac{
+		text-align: justify;
+		font-family: Arial, Helvetica, sans-serif;
+	}
+	.co{
+		text-align: justify;
+		font-family: Arial, Helvetica, sans-serif;
+	}
+	.copy{
+		font-size: 12px;
+		font-family: Arial, Helvetica, sans-serif;
+		letter-spacing: 3px;
+		text-transform: uppercase;
+	}
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formulario de Pago</title>
+	<link rel="stylesheet" type="text/css" href="css/pago.css">
+	<script src="js/frmpago.js" charset="utf-8"></script>
+</head>
+<body>
+<div class="modal">
+    <div class="modal__container">
+      <div class="modal__featured">
+        <button type="button" class="button--transparent button--close" onclick="location.href='menu.html'">
+          <svg class="nc-icon glyph" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="32px" height="32px" viewBox="0 0 32 32">
+            <g><path fill="#ffffff" d="M1.293,15.293L11,5.586L12.414,7l-8,8H31v2H4.414l8,8L11,26.414l-9.707-9.707 C0.902,16.316,0.902,15.684,1.293,15.293z"></path> </g></svg>
+          <span class="visuallyhidden">Return to Product Page</span>
+        </button>
+        <div class="modal__circle"></div>
+        <img src="img/su.png" class="modal__product" />
+      </div>
+      <div class="modal__content">
+        <h2>Completar Pago</h2>
+
+        <form>
+          <ul class="form-list">
+            <li class="form-list__row">
+              <label>Nombre</label>
+              <input type="text" name="" required="" />
+            </li>
+            <li class="form-list__row">
+              <label>Número de Tarjeta</label>
+              <div id="input--cc" class="creditcard-icon">
+                <input type="text" name="cc_number" required="" />
+              </div>
+            </li>
+
+             <li class="form-list__row">
+              <label>Fecha de entrega</label>
+              <input type="date" name="" required="" />
+            </li>
+            <li class="form-list__row form-list__row--inline">
+              <div>
+
+            <li class="form-list__row">
+              <label>Dirección</label>
+              <input type="text" name="" required="" />
+            </li>
+
+            </li>
+            <li class="form-list__row form-list__row--agree">
+              <label>
+                <input type="checkbox" name="save_cc" checked="checked">
+                Guardar tarjeta para futuras compras
+              </label>
+            </li>
+            <li>
+            <input name="button2" type="button" class="button" 
+              onclick="location.href='home.html'" onclick='alert("Completó su compra exitosamente")'  value="PAGAR" />
+             
+            </li>
+          </ul>
+        </form>
+      </div> <!-- END: .modal__content -->
+    </div> <!-- END: .modal__container -->
+  </div> <!-- END: .modal -->
+
+</body>
+</html>
